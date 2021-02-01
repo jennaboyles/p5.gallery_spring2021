@@ -1,12 +1,11 @@
-## Welcome to our p5.gallery
+## Welcome to our p5.gallery!
 
 1. Create a Github account
 2. Rename the folder that you downloaded from p5.js to yourname_title. Upload the entire folder to Github.
-3. Navigate to the main index.html (above). Add this line of code on the page. Replace the last part with the exact name of your folder capitialization matters.
-    > < a href = "https://jennaboyles.github.io/p5.gallery_spring2021/THE_EXACT_NAME_OF_YOUR_FOLDER" </a>
-4. 
-
-
+3. Navigate to your folder, click on YOUR html.index, and select edit. Add this line of code at the bottom. Replace the last part with the exact name of your folder, capitialization matters. Commit the change.
+    > <a href="https://jennaboyles.github.io/p5.gallery_spring2021/YOUR_EXCACT_FOLDER_NAME"</a> " </a>
+4. Last, naviage to the MAIN html.index (above) and select edit. Add this line of code after mine. Replace the designated parts with your exact folder name and the text you would like to appear on the page.  
+    >  <a href="https://jennaboyles.github.io/p5.gallery_spring2021/YOUR_EXCACT_FOLDER_NAM"><h2><strong>This is what will appear on the page</strong></h2></a>     
 
 ## About GitHub Pages
 
