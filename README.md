@@ -1,4 +1,14 @@
-## Welcome to GitHub Pages
+## Welcome to our p5.gallery
+
+1. Create a Github account
+2. Rename the folder that you downloaded from p5.js to yourname_title. Upload the entire folder to Github.
+3. Navigate to the main index.html (above). Add this line of code on the page. Replace the last part with the exact name of your folder capitialization matters.
+    '< a href = "https://jennaboyles.github.io/p5.gallery_spring2021/THE_EXACT_NAME_OF_YOUR_FOLDER" </a>'
+4. 
+
+
+
+## About GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/jennaboyles/p5.gallery_spring2021/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
