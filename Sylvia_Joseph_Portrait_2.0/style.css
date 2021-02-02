@@ -1,0 +1,18 @@
+html, body {
+  margin: 10px;
+  padding: 0px;
+  background-color: #08f7ae;
+}
+
+canvas {
+  display: block;
+}
+
+h1 {text-align: center; 
+  font-family: 'Dancing Script', cursive;
+}
+
+p {font-size: 20px; 
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+}
