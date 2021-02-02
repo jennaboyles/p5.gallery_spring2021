@@ -1,0 +1,20 @@
+html,
+body {
+  margin: 20px;
+  padding: 0;
+  background-color: pink;
+  color: white;
+}
+
+canvas {
+  display: block;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  text-align: center;
+}
