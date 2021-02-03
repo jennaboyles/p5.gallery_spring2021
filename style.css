@@ -1,7 +1,17 @@
 html, body {
-  margin: 0;
+  margin: 40px;
   padding: 0;
+  background-color: #DAF7A6; 
+  color: #581845;
+  font-family: 'Jim Nightshade', cursive;
+  font-size: 40px
 }
 canvas {
   display: block;
+}
+  h1 {text-align: center; 
+
+}
+	 p {font-size: 27px; 
+
 }
