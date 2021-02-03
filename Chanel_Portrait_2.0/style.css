@@ -1,0 +1,11 @@
+html, body {
+  margin: 5px;
+  padding: 0px;
+  
+   
+}
+canvas {
+  display: block;
+}
+ h1 {text-align: center; }
+	 p {font-size: 16px; }
