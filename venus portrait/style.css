@@ -1,0 +1,17 @@
+html, body {
+  margin: 26px;
+  padding: 0;
+  background-color:#f9e8c9 
+}
+canvas {
+  display: block;
+}
+
+ h1 {text-align: center;
+
+}
+
+
+	 p {font-size: 18px; 
+text-aline: center;
+}
