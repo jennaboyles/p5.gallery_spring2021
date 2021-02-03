@@ -1,3 +1,7 @@
+var r=250;
+var g=221;
+var b=55;
+
 let lipcol = {
   r: 229,
   g: 95,
@@ -5,28 +9,30 @@ let lipcol = {
 }
 
 
-
 function setup() {
   createCanvas(500, 600);
+ 
 }
 
+
 function draw() {
-  background(220);
- 
+  
+   b = map(mouseX, 0, 500, 0, 225)
+  background(r, g, b);
+  fill('#FA9537')
+  ellipse(mouseX, mouseY, 100, 100)
  
   
   noStroke();
 colorMode(RGB);
 let c = color(35, 15, 95); 
 fill(c);
-  rect (150, 0, 1000 )
+  //rect (300, 0, 600 )
   let value = lightness(c); // Sets 'value' to 50
 fill(95, 15, 90);
-rect(50, 0, 35, 1000);
+//rect(50, 0, 35, 1000);
   
- function mousePressed() {
-  loop();
-}
+
 
   
   //hair wave
@@ -105,8 +111,8 @@ rect(50, 0, 35, 1000);
 
   //lips
   lipcol.r = random(111, 218);
-  lipcol.g = random(100, 59);
-  lipcol.b = random(200, 200);
+  lipcol.g = random(100, 69);
+  lipcol.b = random(200, 20);
   fill(lipcol.r, lipcol.g, lipcol.b);
   strokeWeight(1);
   stroke(lipcol.r, lipcol.g, lipcol.b);
@@ -169,10 +175,16 @@ rect(50, 0, 35, 1000);
   textSize(60);
   fill(59, 88, 229)
 text('neza', mouseX, mouseY);
+  textSize(70)
 fill(229, 59, 126);
 text('neza', mouseX, mouseY);
+  textSize(50)
 fill(175, 229, 59);
+  strokeWeight(5)
 text('neza', mouseX, mouseY);
   
   
 }
+
+
+
