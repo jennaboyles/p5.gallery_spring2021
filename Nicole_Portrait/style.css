@@ -1,0 +1,30 @@
+html,
+
+font-face {
+  font-family: digital-7;
+  src: url(fonts/digital-7.regular.ttf);
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: digital-7;
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+
+h1 {
+  font-family: digital-7;
+  text-align: center;
+}
+
+p {
+  font-family: digital-7;
+  font-size: 18px;
+  text-align: center;
+}
